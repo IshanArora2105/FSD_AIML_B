@@ -1,0 +1,40 @@
+/* body{
+    background-color: black;
+}
+
+p,h2{
+    background-color: aqua;
+    color: red;
+}
+
+#para1{
+    background-color: aliceblue;
+    color: blue;
+} */
+
+.para1{
+    background-color: aqua;
+}
+
+/* Child selector */
+div>p{
+    color: brown; 
+}
+
+/*  */
+div+p{
+    background-color: yellowgreen;
+}
+
+div~p{
+    background-color: chartreuse;
+}
+
+p{
+    display: inline-block;
+    animation: transform 2s ease-in-out  ;
+    transform: rotate(0deg);
+}
+p:hover{
+    transform: rotate(180deg);
+}
