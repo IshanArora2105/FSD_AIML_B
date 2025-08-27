@@ -1,0 +1,40 @@
+.container{
+    display: flex;
+    border: 2px solid red;
+    background-color: cadetblue;
+    /* flex-direction: column; */
+    justify-content:space-around;
+
+}
+
+.child1 {
+    border: 1px solid black;
+    background-color: red;
+    height:200px;
+    width: 200px;
+
+}
+
+.child2 {
+    border: 1px solid black;
+    background-color: yellow;
+    height:200px;
+    width: 200px;
+
+}
+
+.child3 {
+    border: 1px solid black;
+    background-color: green;
+    height:200px;
+    width: 200px;
+
+}
+
+.child4 {
+    border: 1px solid black;
+    background-color: blue;
+    height:200px;
+    width: 200px;
+
+}
