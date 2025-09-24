@@ -4,13 +4,34 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        #card{
+            height: 300px;
+            width: 300px;
+            border: 5px solid red;
+            background-color: blue;
+        }
+    </style>
 </head>
 <body>
-    <script>
+    <div id="card">
+        <button onclick="abes()">Click me</button>
+        <p id="aaa"></p>
+    </div>
+
+
+     
+    <!-- <script>
         function abes(){
             document.write("hello hii abesec");
         }
         abes();
+    </script> -->
+
+    <script>
+        function abes(){
+            document.getElementById("aaa").innerHTML="<h1>hello hii abesec</h1>";
+        }
     </script>
 </body>
 </html>
