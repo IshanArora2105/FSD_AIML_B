@@ -13,12 +13,29 @@
         }
     </style>
 </head>
-<body>
-    <div id="card">
+<body id="big">
+    <!-- <div id="card">
         <button onclick="abes()">Click me</button>
         <p id="aaa"></p>
-    </div>
+    </div> -->
 
+    <button onclick="red()">RED</button>
+    <button onclick="blue()">BLUe</button>
+    <button onclick="green()">GREEN</button>
+
+    <script>
+        function red(){
+            document.getElementById("big").style.backgroundColor="red"
+        }
+
+        function blue(){
+            document.getElementById("big").style.backgroundColor="blue"
+        }
+
+        function green(){
+            document.getElementById("big").style.backgroundColor="green"
+        }
+    </script>
 
      
     <!-- <script>
