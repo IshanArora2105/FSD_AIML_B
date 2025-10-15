@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input type="text" id="aa">
+    <button type="button" onclick="write()">click me</button>
+    <p id="para"></p>
+    <script>
+        function write(){
+        let x=document.getElementById("aa");
+        let y=x.value;
+        document.getElementById("para").innerHTML=y;
+        }
+    </script>
+</body>
+</html>
